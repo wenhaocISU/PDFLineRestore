@@ -31,6 +31,8 @@ public class PDFLineRestorer {
 				outLine = outLine + lastWord.substring(0, lastWord.length()-1);
 			else outLine = outLine + lastWord + " ";
 		}
+		
+		//This comment was added by John.
 		out.write(outLine);
 		in.close();
 		out.flush();
