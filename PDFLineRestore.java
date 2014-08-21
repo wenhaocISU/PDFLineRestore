@@ -10,6 +10,7 @@ public class PDFLineRestorer {
 	
 	public static void main(String[] args) {
 		try {
+			// here is the fork version
 		File srcFile = new File(args[0]);
 		BufferedReader in = new BufferedReader( new FileReader(srcFile));
 		File outFile = new File(args[1]);
